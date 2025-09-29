@@ -332,7 +332,25 @@
     <div class="contatoCampo contatoCampo-sucesso">
       <label>Email: </label>
       <input type="email" class="contatoCampo--validouErro" required>
-      <span 
+      <span class="contatoCampo-msg contatoCampo-msg--erro">
+        você quis dizer <a href="#">gmail.com</a>
+      </span>
+    </div>
+
+    <div class="contatoCampo contatoCampo-sucesso">
+      <label>Telefone: </label>
+      <input type="texto" class="contatoCampo--validouErro" placeholder="(11) 5571-2751">
+      <span class="contatoCampo-msg contatoCampo-msg--erro">Faltou o DDD</span>
+    </div>
+
+    <div class="contatoCampo">
+      <label>CEP:</label>
+      <input type="text" maxlength="8" placeholder="Exemplo:04101-300" required>
+    </div>
+
+    <div class="contatoCampo">
+      <label>Endereço:</label>
+      <input type="text" class="contatoCampo"
     </div>
   </form>
 </div>
