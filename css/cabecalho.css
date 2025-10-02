@@ -24,3 +24,14 @@
 .cabecalho-logo-img:focus {
     filter: brightness(1.2)
 }
+
+.cabecalho-nav {
+    text-align: center;
+}
+
+.cabecalho-nav-item {
+    display: inline-block;
+    line-height: 2;
+    margin: 0.5em;
+    font-size: .95em;
+}
