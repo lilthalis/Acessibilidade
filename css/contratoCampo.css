@@ -12,4 +12,9 @@
     height: 20px;
     text-align: center;
     background-color: #fff;
+    transform: translate(-7px, -3px);
+    border: 1px solid #7D7D7D;
+    color: transparent;
+    line-height: 1;
+    transition: 2s ease-in;
 }
