@@ -1,10 +1,10 @@
-.contato.Campo {
+.contatoCampo {
     margin: .8em auto;
     max-width: 600px;
     position: relative;
 }
 
-.contato.Campo-label:before {
+.contatoCampo-label:before {
     content: '';
     vertical-align: middle;
     display: inline-block;
@@ -16,5 +16,5 @@
     border: 1px solid #7D7D7D;
     color: transparent;
     line-height: 1;
-    transition: 2s ease-in;
+    transition: .2s ease-in;
 }
