@@ -39,3 +39,27 @@
     top: 2.5em;
     width: 1.5em;
 }
+
+.contatoCampo label,
+.contatoCampo input:not([type='checkbox'])
+.contatoCampo textarea {
+    display : block;
+    width: 100%;
+    text-align: left;
+}
+
+.contatoCampo label {
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+
+.contatoCampo input,
+.contatoCampo textarea {
+    font-size: 1em;
+    padding: .5em;
+    min-height: 50px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    outline: 0;
+    
+}
