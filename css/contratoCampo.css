@@ -61,5 +61,24 @@
     border-radius: 8px;
     border: 2px solid #ccc;
     outline: 0;
-    
+
+}
+
+.contatoCampo input: focus,
+.contatoCampo textarea: focus {
+    border: 2px solid #222;
+}
+
+.contatoCampo-campoDesabilitado {
+    background-color: #ddd;
+}
+
+.contatoCampo-msg,
+.formContato-validacao {
+    margin-left: 4px;
+    margin-top: 4px;
+    font-size: 9em;
+    font-weight: bold;
+    color: #FD1242;
+    display: inline-block;
 }
